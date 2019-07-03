@@ -3,7 +3,9 @@
         <div class="container">
             <p v-if="loading">Loading...</p>
             <div v-else>
-                <h1>Posts</h1>
+                <header class="head">
+                    <h1>Posts</h1>
+                </header>
                 <table>
                     <tr>
                         <th>User Id</th>
