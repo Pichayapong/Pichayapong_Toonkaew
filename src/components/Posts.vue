@@ -3,7 +3,7 @@
         <div class="container">
             <p v-if="loading">Loading...</p>
             <div v-else>
-                <h1>{{searchId}}</h1>
+                <h1>Posts</h1>
                 <table>
                     <tr>
                         <th>User Id</th>
